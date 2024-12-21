@@ -21,7 +21,7 @@ export const TestSocketClient = () => {
 
     if (!canvas || !context) return;
 
-    const newSocket = io("http://localhost:3003");
+    const newSocket = io("https://multiplayerserver-wf0p.onrender.com");
     setSocket(newSocket);
 
     console.log("Client connected to server");
