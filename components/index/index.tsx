@@ -117,7 +117,7 @@ export const TestSocketClient = () => {
 
   return (
     <div>
-      <h1>Canvas Multiplayer</h1>
+      <h1> Play2World3D Multiplayer</h1>
       <button onClick={handleMove}>Move Player</button>
       <canvas
         ref={canvasRef}
